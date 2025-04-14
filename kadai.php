@@ -35,11 +35,11 @@ list($max_strawberry, $min_strawberry, $avg_strawberry) = calculate_prices($stra
 echo "桃の価格:\n";
 echo "最高値: {$max_peach}円\n";
 echo "最安値: {$min_peach}円\n";
-echo "平均価格: " . round($avg_peach, 2) . "円\n\n";
+echo "平均価格: " . round($avg_peach, 0) . "円\n\n";
 
 echo "イチゴの価格:\n";
 echo "最高値: {$max_strawberry}円\n";
 echo "最安値: {$min_strawberry}円\n";
-echo "平均価格: " . round($avg_strawberry, 2) . "円\n";
+echo "平均価格: " . round($avg_strawberry, 0) . "円\n";
 ?>
 
