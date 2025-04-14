@@ -12,9 +12,9 @@ for ($i = 0; $i < $num_peaches; $i++) {
     $peach_prices[] = rand(200, 300);
 }
 
-// イチゴの価格（200円〜300円のランダム）
+// イチゴの価格（400円〜500円のランダム）
 for ($i = 0; $i < $num_strawberries; $i++) {
-    $strawberry_prices[] = rand(200, 300);
+    $strawberry_prices[] = rand(400, 500);
 }
 
 // 関数で計算を行う
@@ -42,3 +42,4 @@ echo "最高値: {$max_strawberry}円\n";
 echo "最安値: {$min_strawberry}円\n";
 echo "平均価格: " . round($avg_strawberry, 2) . "円\n";
 ?>
+
